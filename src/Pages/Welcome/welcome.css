@@ -1,0 +1,64 @@
+.welcome-container{
+    min-width: 340px; 
+    width: 30%; 
+    max-width: 35%;
+    border: 1px solid gray;
+    margin-inline:auto;
+    padding: 10px;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    gap: 2rem;
+}   
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 60%;
+}
+.welcome-header{
+    font: normal normal medium 28px/17px Rubik;
+    color: #1D2226;
+}
+
+.welcome-txt{
+    font: normal normal normal 18px/26px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 0.6;
+}
+
+.auth-btns-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    width: 100%;
+}
+
+.welcome-btn{
+    cursor: pointer;
+    width: 335px;
+    height: 46px;
+    border-radius: 6px;
+    opacity: 1;
+    border: none;
+    font-weight: bold;
+    width: 100%;
+}
+
+.welcome-login-btn{
+    background: #6C25FF 0% 0% no-repeat padding-box;
+    color: white;
+}
+
+.welcome-register-btn{
+    background: #6C25FF4B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #1D2226;
+}
